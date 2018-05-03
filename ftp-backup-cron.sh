@@ -101,7 +101,7 @@ do
 done
 
 #
-# Miscellinous folders created by AutoMySQLBackup script
+# Miscellaneous folders created by AutoMySQLBackup script
 #
 cd ${MOUNTING_FOLDER}/db/fullschema/
 
