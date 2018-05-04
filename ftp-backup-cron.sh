@@ -28,7 +28,8 @@ MOUNTING_FOLDER=/mnt/ftp
 
 INCLUDES=$(mysql root_cwp -B -N -s -e "SELECT username FROM user")
 
-rm -rf ${MOUNTING_FOLDER}
+umount ${MOUNTING_FOLDER} > /dev/null 2>&1
+rm -rf ${MOUNTING_FOLDER} > /dev/null 2>&1
 
 mkdir -p ${MOUNTING_FOLDER}
 
