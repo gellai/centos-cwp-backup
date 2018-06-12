@@ -33,4 +33,4 @@ Recommended file locations:
 | FTP_USER | Username to access the FTP server | username |
 | FTP_PASS | Password to access the FTP server | password |
 
-[Find out more about this project and setup here.](https://gellai.com)
+[Find out more about this project and setup here.](https://gellai.com/custom-centos-cwp-backup-solution/)
